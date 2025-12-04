@@ -30,9 +30,11 @@ We forecast **frost occurrence and temperature** at multiple lead times and eval
 ```
 
 ## 🧰 Environment Setup
+```
 conda create -n frost python=3.10
 conda activate frost
 pip install -r requirements.txt
+```
 
 ## 🌡️ Problem Overview
 For each CIMIS station and each hour, we aim to forecast:
