@@ -27,3 +27,18 @@ We forecast **frost occurrence and temperature** at multiple lead times and eval
 ├── README.md                      # This file
 └── report/
     └── F3_frost_report.pdf        # Final PDF report (answers Q1–Q4, optional Q5)
+
+---
+
+##🧰 Environment Setup
+conda create -n frost python=3.10
+conda activate frost
+pip install -r requirements.txt
+
+##🌡️ Problem Overview
+For each CIMIS station and each hour, we aim to forecast:
+**Whether frost will occur**
+**Probability that temperature < 0°C**
+**Seasonal frost patterns** (useful for long-term planning)
+**Hourly frost variability** at specific stations
+The goal is to create **actionable, interpretable** frost forecasts useful for growers statewide.
