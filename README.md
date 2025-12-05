@@ -47,10 +47,25 @@ The goal is to create **actionable, interpretable** frost forecasts useful for g
 ## 🚀 Pipeline Overview
 Below is the workflow implemented in the notebook (F3Project (12).html):
 
-1️⃣ Data Loading
-We use the cleaned CIMIS dataset:
-```bash
-df = pd.read_csv("cimis_all_stations_clean.csv")
-```
-Columns include: temperature, dew point, humidity, wind, radiation, soil temp, precipitation, ETo, and timestamps.
+1.
+2.
+3.
 
+## 🔧 Preprocessing Steps
+Create calender date columns
+Check for missing data
+
+## 🧠 Modeling Strategy
+
+
+## 📊 Performance Summary
+
+
+## 📈 Key Visuals & Insights
+
+
+
+## 📄 Project Report
+
+
+## 
