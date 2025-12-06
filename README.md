@@ -63,7 +63,8 @@ Evaluated performance using ROC-AUC, PR-AUC, BRIER, and RMSE
          Month (to preserve seasonality)
          Wind direction (to preserve circular direction)
 9. Standardized all continuous predictor variables.
-
+10. One-Hot encoded categorical variables
+11. Handled missing values
 ## 🧠 Modeling Strategy
 - Random Forest
 - Tuned XGB Boost Classifer
