@@ -13,20 +13,10 @@ We forecast **frost occurrence and temperature** at multiple lead times and eval
 ```bash
 ├── data/                          # Cleaned & engineered datasets (CIMIS + optional reanalysis)
 ├── figures/                       # All plots and visualizations used in the report
-├── notebooks/
-│   ├── 01_exploration.ipynb       # EDA and basic time-series analysis
-│   ├── 02_feature_engineering.ipynb # Lagged features, diurnal/seasonal features, targets
-│   ├── 03_modeling_LOSO.ipynb     # Main modeling + LOSO evaluation pipeline
-│   └── 04_calibration_plots.ipynb # Reliability diagrams, ECE, PR/ROC curves
-├── src/
-│   ├── data_utils.py              # Loading, cleaning, and station-wise splitting
-│   ├── features.py                # Feature engineering helpers
-│   ├── models.py                  # Model wrappers and training routines
-│   └── evaluation.py              # Metrics, LOSO loops, plotting utilities
+├── F3 Project.ipydb               # Project Notebook
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # This file
-└── report/
-    └── F3_frost_report.pdf        # Final PDF report (answers Q1–Q4)
+├── F3_frost_report.pdf            # Final PDF report (answers Q1–Q4)
 ```
 
 ## 🧰 Environment Setup
@@ -56,7 +46,7 @@ Trained the classification model using the processed weather features to predict
 6. **Hyperparameter Tuning**
 Optimized model parameters using cross-validation to improve performance and reduce overfitting.
 7. **Model Evaluation**
-Evaluated performance using accuracy, precision, recall, F1-score, and probabilistic calibration metrics.
+Evaluated performance using ROC-AUC, PR-AUC, BRIER, and RMSE
 8. **Unseen Station Testing**
 Tested the trained model on the station that was not included during training to assess real-world generalization.
 9. **Probabilistic Forecasting**
