@@ -26,7 +26,7 @@ We forecast **frost occurrence and temperature** at multiple lead times and eval
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # This file
 └── report/
-    └── F3_frost_report.pdf        # Final PDF report (answers Q1–Q4, optional Q5)
+    └── F3_frost_report.pdf        # Final PDF report (answers Q1–Q4)
 ```
 
 ## 🧰 Environment Setup
@@ -45,18 +45,41 @@ For each CIMIS station and each hour, we aim to forecast:
 The goal is to create **actionable, interpretable** frost forecasts useful for growers statewide.
 
 ## 🚀 Pipeline Overview
-Below is the workflow implemented in the notebook (F3Project (12).html):
-
-1.
-2.
-3.
-
+1. **Prepoccesing**
+Cleaned the CIMIS dataset, handled missing values, engineered new features, applied cyclical encoding, and standardized all predictors.
+3. **Feature Selection**
+Selected the most relevant weather and derived variables for frost prediction while checking for multicollinearity.
+4. **Train–Test Split**
+Used LOSO (Use on station out) four test/train split
+5. **Model Training**
+Trained the classification model using the processed weather features to predict frost events.
+6. **Hyperparameter Tuning**
+Optimized model parameters using cross-validation to improve performance and reduce overfitting.
+7. **Model Evaluation**
+Evaluated performance using accuracy, precision, recall, F1-score, and probabilistic calibration metrics.
+8. **Unseen Station Testing**
+Tested the trained model on the station that was not included during training to assess real-world generalization.
+9. **Probabilistic Forecasting**
+Generated frost probability predictions to support real-world decision making.
 ## 🔧 Preprocessing Steps
-Create calender date columns
-Check for missing data
+1. Loaded the full CIMIS daily weather dataset.
+2. Added month, year, and day columns for time tracking.
+3. Created frost labels aligned with daily weather observations.
+4. Checked for missing values across all variables.
+5. Examined correlations between weather variables.
+8. Engineered new features for early frost detection:
+   - Dewpoint depression (air temperature – dewpoint)
+   - Short-term cooling rate (temperature change over time)
+   - Calm-wind indicator (wind speed < 1 m/s)
+   - Vapor pressure deficit (VPD)
+   - Applied sine and cosine encoding to:
+         Month (to preserve seasonality)
+         Wind direction (to preserve circular direction)
+9. Standardized all continuous predictor variables.
 
 ## 🧠 Modeling Strategy
-
+- Random Forest
+- Tuned XGB Boost Classifer
 
 ## 📊 Performance Summary
 
