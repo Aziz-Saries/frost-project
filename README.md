@@ -47,10 +47,7 @@ Trained the classification model using the processed weather features to predict
 Optimized model parameters using cross-validation to improve performance and reduce overfitting.
 7. **Model Evaluation**
 Evaluated performance using ROC-AUC, PR-AUC, BRIER, and RMSE
-8. **Unseen Station Testing**
-Tested the trained model on the station that was not included during training to assess real-world generalization.
-9. **Probabilistic Forecasting**
-Generated frost probability predictions to support real-world decision making.
+
 ## 🔧 Preprocessing Steps
 1. Loaded the full CIMIS daily weather dataset.
 2. Added month, year, and day columns for time tracking.
