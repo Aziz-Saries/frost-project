@@ -69,8 +69,9 @@ Evaluated performance using ROC-AUC, PR-AUC, BRIER, and RMSE
 
 ## 🚀 Running the Project
 1. Install Dependencies
-All you need is to have Python and pip installed. From the root directory of the project, install all required dependencies using:
+All you need is to have Python and pip installed. From the root directory run:
 
+```bash
 pip install -r requirements.txt
 
 2. Launch Jupyter Notebook
