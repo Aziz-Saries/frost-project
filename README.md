@@ -69,14 +69,15 @@ Evaluated performance using ROC-AUC, PR-AUC, BRIER, and RMSE
 - Random Forest
 - Tuned XGB Boost Classifer
 
-## 📊 Performance Summary
 
+🔗 References
+1. UC Davis Biometeorology Group.
+Principles of Frost Protection.
+(Discusses dewpoint, radiational cooling, calm winds, VPD, agricultural frost protection.)
+https://biomet.ucdavis.edu/doc/Principles_of_Frost_Protection%E2%80%93UCDavis_Biometeorology_Group.pdf
 
-## 📈 Key Visuals & Insights
+2. Vapor Pressure Deficit Reference (Formula & physical meaning).
+https://wikifire.wsl.ch/tiki-index.php?page=Vapor+pressure+deficit
 
-
-
-## 📄 Project Report
-
-
-## 
+3. Dewpoint Depression Mechanism (Video explanation).
+https://youtu.be/6buQuGG53gs?si=GKY9xD4dmnzo_kOB&t=11
