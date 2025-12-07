@@ -67,6 +67,19 @@ Evaluated performance using ROC-AUC, PR-AUC, BRIER, and RMSE
 - Random Forest
 - Tuned XGB Boost Classifer
 
+## 🚀 Running the Project
+1. Install Dependencies
+All you need is to have Python and pip installed. From the root directory of the project, install all required dependencies using:
+
+pip install -r requirements.txt
+
+2. Launch Jupyter Notebook
+To run the modeling pipeline and reproduce results:
+
+Open the Jupyter environment:
+In your browser, open the notebook file:
+F3Project.ipynb
+Then simply run all cells sequentially to process data, train models, and reproduce results.
 
 ## 🔗 References
 1. UC Davis Biometeorology Group.
