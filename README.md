@@ -70,7 +70,7 @@ Evaluated performance using ROC-AUC, PR-AUC, BRIER, and RMSE
 - Tuned XGB Boost Classifer
 
 
-🔗 References
+## 🔗 References
 1. UC Davis Biometeorology Group.
 Principles of Frost Protection.
 (Discusses dewpoint, radiational cooling, calm winds, VPD, agricultural frost protection.)
