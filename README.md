@@ -79,9 +79,16 @@ pip install -r requirements.txt
 ### 2. Launch Jupyter Notebook
 To run the modeling pipeline and reproduce results:
 
-Open the Jupyter environment:
+#### a.) Open the Jupyter environment:
+
+```bash
+jupyter notebook
+```
+
 In your browser, open the notebook file:
+```bash
 F3Project.ipynb
+```
 Then simply run all cells sequentially to process data, train models, and reproduce results.
 
 ## 🔗 References
