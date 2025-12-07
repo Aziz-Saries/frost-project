@@ -11,9 +11,7 @@ We forecast **frost occurrence and temperature** at multiple lead times and eval
 ## 📁 Repository Structure
 
 ```bash
-├── data/                          # Cleaned & engineered datasets (CIMIS + optional reanalysis)
-├── figures/                       # All plots and visualizations used in the report
-├── F3 Project.ipydb               # Project Notebook
+├── F3Project.ipydb               # Project Notebook
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # This file
 ├── F3_frost_report.pdf            # Final PDF report (answers Q1–Q4)
