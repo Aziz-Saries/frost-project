@@ -76,7 +76,7 @@ Make sure you have Python and `pip` installed. From the root directory run:
 pip install -r requirements.txt
 ```
 
-2. Launch Jupyter Notebook
+### 2. Launch Jupyter Notebook
 To run the modeling pipeline and reproduce results:
 
 Open the Jupyter environment:
