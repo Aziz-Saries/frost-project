@@ -68,8 +68,9 @@ Evaluated performance using ROC-AUC, PR-AUC, BRIER, and RMSE
 - Tuned XGB Boost Classifer
 
 ## 🚀 Running the Project
-1. Install Dependencies
-All you need is to have Python and pip installed. From the root directory run:
+
+### 1. Install Dependencies
+Make sure you have Python and `pip` installed. From the root directory run:
 
 ```bash
 pip install -r requirements.txt
