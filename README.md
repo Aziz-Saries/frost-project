@@ -14,7 +14,7 @@ We forecast **frost occurrence and temperature** at multiple lead times and eval
 ├── F3Project.ipydb               # Project Notebook
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # This file
-├── F3_frost_report.pdf            # Final PDF report (answers Q1–Q4)
+├── F3 Frost Report.pdf            # Final PDF report (answers Q1–Q4)
 ```
 
 ## 🧰 Environment Setup
